@@ -5,7 +5,7 @@ using namespace std;
 //
 //  class :         QueueX
 //  Description :   Generic implementation of Queue    
-//  Author  :       Mangesh Ashok Bedre
+//  Author  :       Tushar Vijay Shilimkar
 //
 ////////////////////////////////////////////////////////////////////////////////////
 
@@ -37,7 +37,7 @@ class QueueX
 //
 //	Function Name			:	QueueX
 //	Function Date			:	15/09/2025
-//	Function Author			:	Mangesh Ashok Bedre
+//	Function Author			:	Tushar Vijay Shilimkar
 //	Parameters  			:   NONE
 //	Description             :   This is constructor of class QueueX
 //  Returns					:   NONE
@@ -55,7 +55,7 @@ QueueX<T> :: QueueX()
 //
 //	Function Name			:	Enqueue
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no.
@@ -103,7 +103,7 @@ void QueueX<T> :: Enqueue(
 //
 //	Function Name			:	Dequeue
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -145,7 +145,7 @@ T QueueX<T> :: Dequeue()
 //
 //	Function Name			:	Display
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -177,7 +177,7 @@ void QueueX<T> :: Display()
 //
 //	Function Name			:	Count
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -200,7 +200,7 @@ int QueueX<T> :: Count()
 //
 //  class :         StackX
 //  Description :   Generic implementation of Stack    
-//  Author  :      Mangesh Ashok Bedre
+//  Author  :      Tushar Vijay Shilimkar
 //
 ////////////////////////////////////////////////////////////////////////////////////
 
@@ -232,7 +232,7 @@ class StackX
 //
 //	Function Name			:	StackX
 //	Function Date			:	15/09/2025
-//	Function Author			:	Mangesh Ashok Bedre
+//	Function Author			:	Tushar Vijay Shilimkar
 //	Parameters  			:   NONE
 //	Description             :   This is constructor of class StackX
 //  Returns					:   NONE
@@ -250,7 +250,7 @@ StackX<T> :: StackX()
 //
 //	Function Name			:	Push
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no.
@@ -286,7 +286,7 @@ void StackX<T> :: Push(
 //
 //	Function Name			:	Pop
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -328,7 +328,7 @@ T StackX<T> :: Pop()
 //
 //	Function Name			:	Display
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -360,7 +360,7 @@ void StackX<T> :: Display()
 //
 //	Function Name			:	Count
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -383,7 +383,7 @@ int StackX<T> :: Count()
 //
 //  class :         SinglyCLL
 //  Description :   Generic implementation of Singly circular linked list    
-//  Author  :      Mangesh Ashok Bedre
+//  Author  :      Tushar Vijay Shilimkar
 //
 ////////////////////////////////////////////////////////////////////////////////////
 
@@ -470,7 +470,7 @@ class SinglyCLL
 //
 //	Function Name			:	SinglyCLL
 //	Function Date			:	15/09/2025
-//	Function Author			:	Mangesh Ashok Bedre
+//	Function Author			:	Tushar Vijay Shilimkar
 //	Parameters  			:   NONE
 //	Description             :   This is constructor of class SinglyCLL
 //  Returns					:   NONE
@@ -490,7 +490,7 @@ SinglyCLL<T> :: SinglyCLL()
 //
 //	Function Name			:	InsertFirst
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no.
@@ -537,7 +537,7 @@ void SinglyCLL<T> :: InsertFirst(
 //
 //	Function Name			:	InsertLast
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no.
@@ -584,7 +584,7 @@ void SinglyCLL<T> :: InsertLast(
 //
 //	Function Name			:	DeleteFirst
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -625,7 +625,7 @@ void SinglyCLL<T> :: DeleteFirst()
 //
 //	Function Name			:	DeleteLast
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -675,7 +675,7 @@ void SinglyCLL<T> :: DeleteLast()
 //
 //	Function Name			:	Display
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -715,7 +715,7 @@ void SinglyCLL<T> :: Display()
 //
 //	Function Name			:	Count
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -738,7 +738,7 @@ int SinglyCLL<T> :: Count()
 //
 //	Function Name			:	SearchFirstOcc
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[In] T no.
@@ -775,7 +775,7 @@ int SinglyCLL<T> ::  SearchFirstOcc(
 //
 //	Function Name			:	SearchLastOcc
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[In] T no.
@@ -812,7 +812,7 @@ int SinglyCLL<T> :: SearchLastOcc(
 //
 //	Function Name			:	Addition
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -842,7 +842,7 @@ int SinglyCLL<T> :: Addition()
 //
 //	Function Name			:	Maximum
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -877,7 +877,7 @@ int SinglyCLL<T> :: Maximum()
 //
 //	Function Name			:	Minimum
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -912,7 +912,7 @@ int SinglyCLL<T> :: Minimum()
 //
 //	Function Name			:	DisplayPerfect
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -1040,7 +1040,7 @@ int SinglyCLL<T> :: AddEven()
 //
 //	Function Name			:	SecMaximum
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -1078,7 +1078,7 @@ int SinglyCLL<T> :: SecMaximum()
 //
 //	Function Name			:	SumDigit
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -1117,7 +1117,7 @@ void SinglyCLL<T> :: SumDigit()
 //
 //	Function Name			:	Reverse
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -1155,7 +1155,7 @@ void SinglyCLL<T> :: Reverse()
 //
 //	Function Name			:	DisplayPalindrome
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -1198,7 +1198,7 @@ void SinglyCLL<T> :: DisplayPalindrome()
 //
 //	Function Name			:	DisplayProduct
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -1391,7 +1391,7 @@ void SinglyCLL<T> :: InsertAtPos(
 //
 //	Function Name			:	DeleteAtPos
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] int pos.
@@ -1449,7 +1449,7 @@ void SinglyCLL<T> :: DeleteAtPos(
 //
 //  class :         DoublyCLL
 //  Description :   Generic implementation of Doubly circular linked list    
-//  Author  :      Mangesh Ashok Bedre
+//  Author  :     Tushar Vijay Shilimkar
 //
 ////////////////////////////////////////////////////////////////////////////////////
 
@@ -1537,7 +1537,7 @@ class DoublyCLL
 //
 //	Function Name			:	DoublyCLL
 //	Function Date			:	15/09/2025
-//	Function Author			:	Mangesh Ashok Bedre
+//	Function Author			:	Tushar Vijay Shilimkar
 //	Parameters  			:   NONE
 //	Description             :   This is constructor of class DoublyCLL
 //  Returns					:   NONE
@@ -1557,7 +1557,7 @@ DoublyCLL<T> :: DoublyCLL()
 //
 //	Function Name			:	InsertFirst
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no.
@@ -1606,7 +1606,7 @@ void DoublyCLL<T> :: InsertFirst(
 //
 //	Function Name			:	InsertLast
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no.
@@ -1655,7 +1655,7 @@ void DoublyCLL<T> :: InsertLast(
 //
 //	Function Name			:	Display
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -1696,7 +1696,7 @@ void DoublyCLL<T> :: Display()
 //
 //	Function Name			:	Count
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -1719,7 +1719,7 @@ int DoublyCLL<T> :: Count()
 //
 //	Function Name			:	SearchFirstOcc
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[In] T no.
@@ -1756,7 +1756,7 @@ int DoublyCLL<T> ::  SearchFirstOcc(
 //
 //	Function Name			:	SearchLastOcc
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[In] T no.
@@ -1793,7 +1793,7 @@ int DoublyCLL<T> :: SearchLastOcc(
 //
 //	Function Name			:	Addition
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -1823,7 +1823,7 @@ int DoublyCLL<T> :: Addition()
 //
 //	Function Name			:	Maximum
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -1858,7 +1858,7 @@ int DoublyCLL<T> :: Maximum()
 //
 //	Function Name			:	Minimum
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -1893,7 +1893,7 @@ int DoublyCLL<T> :: Minimum()
 //
 //	Function Name			:	DisplayPerfect
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -1936,7 +1936,7 @@ void DoublyCLL<T> :: DisplayPerfect()
 //
 //	Function Name			:	DisplayPrime
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -1987,7 +1987,7 @@ void DoublyCLL<T> :: DisplayPrime()
 //
 //	Function Name			:	AddEven
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2021,7 +2021,7 @@ int DoublyCLL<T> :: AddEven()
 //
 //	Function Name			:	SecMaximum
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2059,7 +2059,7 @@ int DoublyCLL<T> :: SecMaximum()
 //
 //	Function Name			:	SumDigit
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2098,7 +2098,7 @@ void DoublyCLL<T> :: SumDigit()
 //
 //	Function Name			:	Reverse
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2136,7 +2136,7 @@ void DoublyCLL<T> :: Reverse()
 //
 //	Function Name			:	DisplayPalindrome
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2179,7 +2179,7 @@ void DoublyCLL<T> :: DisplayPalindrome()
 //
 //	Function Name			:	DisplayProduct
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2222,7 +2222,7 @@ void DoublyCLL<T> :: DisplayProduct()
 //
 //	Function Name			:	DisplaySmall
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2264,7 +2264,7 @@ void DoublyCLL<T> :: DisplaySmall()
 //
 //	Function Name			:	DisplayLargest
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2306,7 +2306,7 @@ void DoublyCLL<T> :: DisplayLargest()
 //
 //	Function Name			:	DeleteFirst
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2347,7 +2347,7 @@ void DoublyCLL<T> :: DeleteFirst()
 //
 //	Function Name			:	DeleteLast
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2388,7 +2388,7 @@ void DoublyCLL<T> :: DeleteLast()
 //
 //	Function Name			:	InsertAtPos
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no.
@@ -2456,7 +2456,7 @@ void DoublyCLL<T> :: InsertAtPos(
 //
 //	Function Name			:	DeleteAtPos
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] int pos.
@@ -2513,7 +2513,7 @@ void DoublyCLL<T> :: DeleteAtPos(
 //
 //  class :         SinglyLLL
 //  Description :   Generic implementation of Singly Linear linked list    
-//  Author  :      Mangesh Ashok Bedre
+//  Author  :     Tushar Vijay Shilimkar
 //
 ////////////////////////////////////////////////////////////////////////////////////
 
@@ -2597,7 +2597,7 @@ class SinglyLLL
 //
 //	Function Name			:	SinglyLLL
 //	Function Date			:	15/09/2025
-//	Function Author			:	Mangesh Ashok Bedre
+//	Function Author			:	Tushar Vijay Shilimkar
 //	Parameters  			:   NONE
 //	Description             :   This is constructor of class SinglyLLL
 //  Returns					:   NONE
@@ -2615,7 +2615,7 @@ SinglyLLL<T> :: SinglyLLL()
 //
 //	Function Name			:	InsertFirst
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no.
@@ -2658,7 +2658,7 @@ void SinglyLLL<T> :: InsertFirst(
 //
 //	Function Name			:	Display
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2688,7 +2688,7 @@ void SinglyLLL<T> :: Display()
 //
 //	Function Name			:	Count
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2711,7 +2711,7 @@ int SinglyLLL<T> :: Count()
 //
 //	Function Name			:	SearchFirstOcc
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[In] T no.
@@ -2748,7 +2748,7 @@ int SinglyLLL<T> ::  SearchFirstOcc(
 //
 //	Function Name			:	SearchLastOcc
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[In] T no.
@@ -2785,7 +2785,7 @@ int SinglyLLL<T> :: SearchLastOcc(
 //
 //	Function Name			:	Addition
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2815,7 +2815,7 @@ int SinglyLLL<T> :: Addition()
 //
 //	Function Name			:	Maximum
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2850,7 +2850,7 @@ int SinglyLLL<T> :: Maximum()
 //
 //	Function Name			:	Minimum
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2885,7 +2885,7 @@ int SinglyLLL<T> :: Minimum()
 //
 //	Function Name			:	DisplayPerfect
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2928,7 +2928,7 @@ void SinglyLLL<T> :: DisplayPerfect()
 //
 //	Function Name			:	DisplayPrime
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -2979,7 +2979,7 @@ void SinglyLLL<T> :: DisplayPrime()
 //
 //	Function Name			:	AddEven
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -3013,7 +3013,7 @@ int SinglyLLL<T> :: AddEven()
 //
 //	Function Name			:	SecMaximum
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -3051,7 +3051,7 @@ int SinglyLLL<T> :: SecMaximum()
 //
 //	Function Name			:	SumDigit
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -3090,7 +3090,7 @@ void SinglyLLL<T> :: SumDigit()
 //
 //	Function Name			:	Reverse
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -3128,7 +3128,7 @@ void SinglyLLL<T> :: Reverse()
 //
 //	Function Name			:	DisplayPalindrome
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -3171,7 +3171,7 @@ void SinglyLLL<T> :: DisplayPalindrome()
 //
 //	Function Name			:	DisplayProduct
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -3214,7 +3214,7 @@ void SinglyLLL<T> :: DisplayProduct()
 //
 //	Function Name			:	DisplaySmall
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -3256,7 +3256,7 @@ void SinglyLLL<T> :: DisplaySmall()
 //
 //	Function Name			:	DisplayLargest
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -3298,7 +3298,7 @@ void SinglyLLL<T> :: DisplayLargest()
 //
 //	Function Name			:	InsertLast
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no.
@@ -3348,7 +3348,7 @@ void SinglyLLL<T> :: InsertLast(
 //
 //	Function Name			:	DeleteFirst
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -3390,7 +3390,7 @@ void SinglyLLL<T> :: DeleteFirst()
 //
 //	Function Name			:	DeleteLast
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -3436,7 +3436,7 @@ void SinglyLLL<T> :: DeleteLast()
 //
 //	Function Name			:	InsertAtPos
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no.
@@ -3499,7 +3499,7 @@ void SinglyLLL<T> :: InsertAtPos(
 //
 //	Function Name			:	DeleteAtPos
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] int pos.
@@ -3556,7 +3556,7 @@ void SinglyLLL<T> :: DeleteAtPos(
 //
 //  class :         DoublyLLL
 //  Description :   Generic implementation of Doubly Linear linked list    
-//  Author  :      Mangesh Ashok Bedre
+//  Author  :      Tushar Vijay Shilimkar
 //
 ////////////////////////////////////////////////////////////////////////////////////
 
@@ -3642,7 +3642,7 @@ class DoublyLLL
 //
 //	Function Name			:	DoublyLLL
 //	Function Date			:	15/09/2025
-//	Function Author			:	Mangesh Ashok Bedre
+//	Function Author			:	Tushar Vijay Shilimkar
 //	Parameters  			:   NONE
 //	Description             :   This is constructor of class DoublyLLL
 //  Returns					:   NONE
@@ -3660,7 +3660,7 @@ DoublyLLL<T> :: DoublyLLL()
 //
 //	Function Name			:	InsertFirst
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no.
@@ -3705,7 +3705,7 @@ void DoublyLLL<T> :: InsertFirst(
 //
 //	Function Name			:	Display
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -3734,7 +3734,7 @@ void DoublyLLL<T> ::  Display()
 //
 //	Function Name			:	Count
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -3757,7 +3757,7 @@ int DoublyLLL<T> :: Count()
 //
 //	Function Name			:	SearchFirstOcc
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[In] T no.
@@ -3794,7 +3794,7 @@ int DoublyLLL<T> ::  SearchFirstOcc(
 //
 //	Function Name			:	SearchLastOcc
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[In] T no.
@@ -3831,7 +3831,7 @@ int DoublyLLL<T> :: SearchLastOcc(
 //
 //	Function Name			:	Addition
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -3861,7 +3861,7 @@ int DoublyLLL<T> :: Addition()
 //
 //	Function Name			:	Maximum
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -3896,7 +3896,7 @@ int DoublyLLL<T> :: Maximum()
 //
 //	Function Name			:	Minimum
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -3931,7 +3931,7 @@ int DoublyLLL<T> :: Minimum()
 //
 //	Function Name			:	DisplayPerfect
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -3974,7 +3974,7 @@ void DoublyLLL<T> :: DisplayPerfect()
 //
 //	Function Name			:	DisplayPrime
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -4025,7 +4025,7 @@ void DoublyLLL<T> :: DisplayPrime()
 //
 //	Function Name			:	AddEven
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -4059,7 +4059,7 @@ int DoublyLLL<T> :: AddEven()
 //
 //	Function Name			:	SecMaximum
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -4097,7 +4097,7 @@ int DoublyLLL<T> :: SecMaximum()
 //
 //	Function Name			:	SumDigit
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -4136,7 +4136,7 @@ void DoublyLLL<T> :: SumDigit()
 //
 //	Function Name			:	Reverse
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -4174,7 +4174,7 @@ void DoublyLLL<T> :: Reverse()
 //
 //	Function Name			:	DisplayPalindrome
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -4217,7 +4217,7 @@ void DoublyLLL<T> :: DisplayPalindrome()
 //
 //	Function Name			:	DisplayProduct
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -4260,7 +4260,7 @@ void DoublyLLL<T> :: DisplayProduct()
 //
 //	Function Name			:	DisplaySmall
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -4302,7 +4302,7 @@ void DoublyLLL<T> :: DisplaySmall()
 //
 //	Function Name			:	DisplayLargest
 //	Function Date			:	16/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -4344,7 +4344,7 @@ void DoublyLLL<T> :: DisplayLargest()
 //
 //	Function Name			:	InsertLast
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no.
@@ -4396,7 +4396,7 @@ void DoublyLLL<T> :: InsertLast(
 //
 //	Function Name			:	DeleteFirst
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -4434,7 +4434,7 @@ void DoublyLLL<T> ::  DeleteFirst()
 //
 //	Function Name			:	DeleteLast
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -4480,7 +4480,7 @@ void DoublyLLL<T> ::  DeleteLast()
 //
 //	Function Name			:	InsertAtPos
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no.
@@ -4546,7 +4546,7 @@ void DoublyLLL<T> ::  InsertAtPos(
 //
 //	Function Name			:	DeleteAtPos
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] int pos.
@@ -4603,7 +4603,7 @@ void DoublyLLL<T> :: DeleteAtPos(
 //
 //  class :         BST
 //  Description :   Generic implementation of Binary Search Tree (BST)
-//  Author  :      Mangesh Ashok Bedre
+//  Author  :      Tushar Vijay Shilimkar
 //  Date    :       15/09/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////
@@ -4696,7 +4696,7 @@ public:
 //
 //  Function Name : BST (Constructor)
 //  Description   : Initializes the root pointer to nullptr
-//  Author        :Mangesh Ashok Bedre
+//  Author        : Tushar Vijay Shilimkar
 //  Date          : 15/09/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////
@@ -4711,7 +4711,7 @@ BST<T>::BST()
 //
 //  Function Name : Insert
 //  Description   : Inserts a new element into the BST
-//  Author        :Mangesh Ashok Bedre
+//  Author        : Tushar Vijay Shilimkar
 //  Date          : 15/09/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////
@@ -4763,7 +4763,7 @@ void BST<T>::Insert(
 //
 //  Function Name : Inorder
 //  Description   : Displays elements in Inorder traversal
-//  Author        :Mangesh Ashok Bedre
+//  Author        : Tushar Vijay Shilimkar
 //  Date          : 15/09/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////
@@ -4792,7 +4792,7 @@ void BST<T>::InorderX(
 //
 //  Function Name : Preorder
 //  Description   : Displays elements in Preorder traversal
-//  Author        :Mangesh Ashok Bedre
+//  Author        : Tushar Vijay Shilimkar
 //  Date          : 15/09/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////
@@ -4821,7 +4821,7 @@ void BST<T>::PreorderX(
 //
 //  Function Name : Postorder
 //  Description   : Displays elements in Postorder traversal
-//  Author        :Mangesh Ashok Bedre
+//  Author        : Tushar Vijay Shilimkar
 //  Date          : 15/09/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////
@@ -4850,7 +4850,7 @@ void BST<T>::PostorderX(
 //
 //  Function Name : Search
 //  Description   : Searches for an element in the BST
-//  Author        :Mangesh Ashok Bedre
+//  Author        : Tushar Vijay Shilimkar
 //  Date          : 15/09/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////
@@ -4897,7 +4897,7 @@ bool BST<T>::SearchX(
 //
 //  Function Name : Count
 //  Description   : Returns the total number of nodes in the BST
-//  Author        :Mangesh Ashok Bedre
+//  Author        : Tushar Vijay Shilimkar
 //  Date          : 15/09/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////
@@ -4921,7 +4921,7 @@ int BST<T>::CountX(
 //
 //  Function Name : CountLeafNodes
 //  Description   : Returns the number of leaf nodes in the BST
-//  Author        :Mangesh Ashok Bedre
+//  Author        : Tushar Vijay Shilimkar
 //  Date          : 15/09/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////
@@ -4945,7 +4945,7 @@ int BST<T>::CountLeafNodesX(BSTnode<T>* temp)
 //
 //  Function Name : CountParentNodes
 //  Description   : Returns the number of parent (non-leaf) nodes in the BST
-//  Author        :Mangesh Ashok Bedre
+//  Author        : Tushar Vijay Shilimkar
 //  Date          : 15/09/2025
 //
 ////////////////////////////////////////////////////////////////////////////////////
@@ -4973,7 +4973,7 @@ int BST<T>::CountParentNodesX(
 //
 //  class :         Sorting
 //  Description :   Generic implementation of Sorting Algorithms    
-//  Author  :      Mangesh Ashok Bedre
+//  Author  :      Tushar Vijay Shilimkar
 //
 ////////////////////////////////////////////////////////////////////////////////////
 
@@ -5008,7 +5008,7 @@ class Sorting
 //
 //	Function Name			:	Sorting
 //	Function Date			:	15/09/2025
-//	Function Author			:	Mangesh Ashok Bedre
+//	Function Author			:	Tushar Vijay Shilimkar
 //	Parameters  			:   T no - It accepts the size of the array.
 //	Description             :   This is constructor of class Sorting
 //  Returns					:   NONE
@@ -5029,7 +5029,7 @@ Sorting<T> :: Sorting(
 //
 //	Function Name			:	~Sorting
 //	Function Date			:	15/09/2025
-//	Function Author			:	Mangesh Ashok Bedre
+//	Function Author			:	Tushar Vijay Shilimkar
 //	Parameters  			:   None
 //	Description             :   This is Destrcutor of class Sorting
 //  Returns					:   NONE
@@ -5046,7 +5046,7 @@ Sorting<T>  :: ~Sorting()
 //
 //	Function Name			:	Accept
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -5086,7 +5086,7 @@ void Sorting<T> :: Accept()
 //
 //	Function Name			:	Display
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -5117,7 +5117,7 @@ void Sorting<T> ::  Display()
 //
 //	Function Name			:	BubbleSort
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -5162,7 +5162,7 @@ void Sorting<T> :: BubbleSort()     //n square time complwxity for every sorting
 //
 //	Function Name			:	BuubleSortEfficient
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -5212,7 +5212,7 @@ void Sorting<T> :: BubbleSortEfficient()     //n square time complwxity for ever
 //
 //	Function Name			:	SelectionSort
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -5253,7 +5253,7 @@ void Sorting<T> :: SelectionSort()
 //
 //	Function Name			:	InsertionSort
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -5286,7 +5286,7 @@ void Sorting<T>  :: InsertionSort()
 //
 //  class :         Searching
 //  Description :   Generic implementation of searching Algorithms   
-//  Author  :      Mangesh Ashok Bedre
+//  Author  :      Tushar Vijay Shilimkar
 //
 ////////////////////////////////////////////////////////////////////////////////////
 
@@ -5341,7 +5341,7 @@ class Searching
 //
 //	Function Name			:	Searching
 //	Function Date			:	15/09/2025
-//	Function Author			:	Mangesh Ashok Bedre
+//	Function Author			:	Tushar Vijay Shilimkar
 //	Parameters  			:   T no - It accepts the size of the array.
 //	Description             :   This is constructor of class Searching
 //  Returns					:   NONE
@@ -5362,7 +5362,7 @@ Searching<T> :: Searching(
 //
 //	Function Name			:	~Searching
 //	Function Date			:	15/09/2025
-//	Function Author			:	Mangesh Ashok Bedre
+//	Function Author			:	Tushar Vijay Shilimkar
 //	Parameters  			:   None
 //	Description             :   This is Destructor of class Searching
 //  Returns					:   NONE
@@ -5379,7 +5379,7 @@ Searching<T> :: ~Searching()
 //
 //	Function Name			:	Accept
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -5419,7 +5419,7 @@ void Searching<T> :: Accept()
 //
 //	Function Name			:	Display
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		NONE
@@ -5450,7 +5450,7 @@ void Searching<T> :: Display()
 //
 //	Function Name			:	LinearSearch
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no 
@@ -5495,7 +5495,7 @@ bool Searching<T> :: LinearSearch(
 //
 //	Function Name			:	BiDirectionalSearch
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no 
@@ -5533,7 +5533,7 @@ bool Searching<T> :: BiDirectionalSearch(
 //
 //	Function Name			:	BinarySearchInc
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no 
@@ -5584,7 +5584,7 @@ bool Searching<T> :: BinarySearchInc(
 //
 //	Function Name			:	BinarySearchEfficientInc
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no 
@@ -5641,7 +5641,7 @@ bool Searching<T> :: BinarySearchEfficientInc(
 //
 //	Function Name			:	BinarySearchDec
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no 
@@ -5692,7 +5692,7 @@ bool Searching<T> :: BinarySearchDec(
 //
 //	Function Name			:	BinarySearchEfficientDec
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no 
@@ -5743,7 +5743,7 @@ bool Searching<T> :: BinarySearchEfficientDec(
 //
 //	Function Name			:	CheckSortedInc
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no 
@@ -5779,7 +5779,7 @@ bool Searching<T> :: CheckSortedInc()
 //
 //	Function Name			:	CheckSortedDec
 //	Function Date			:	15/09/2025
-//	Function Author		    :	Mangesh Ashok Bedre
+//	Function Author		    :	Tushar Vijay Shilimkar
 //	Parameters:
 //
 //		[IN] T no 
