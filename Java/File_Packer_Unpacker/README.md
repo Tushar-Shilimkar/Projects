@@ -6,8 +6,8 @@ Comes in two versions:
 
 | Version | File | Description |
 |---|---|---|
-| 🖥️ CLI | `program733.java` | Console-based, prompts for the packed file path |
-| 🪟 GUI | `File_Packer_Unpacker.java` | Swing GUI with Browse + Unpack buttons and a live log |
+| 🖥️ CLI | `File_Packer_Unpacker.java` | Console-based, prompts for the packed file path |
+| 🪟 GUI | `File_Packer_UnpackerGUI.java` | Swing GUI with Browse + Unpack buttons and a live log |
 
 ## ✨ Features
 
@@ -25,8 +25,8 @@ Comes in two versions:
 ### 🖥️ Console version
 
 ```bash
-javac program733.java
-java program733
+javac File_Packer_Unpacker.java
+java File_Packer_Unpacker.java
 ```
 
 You'll be prompted to enter the path of the packed file. Extracted files will be created in the current working directory.
@@ -34,8 +34,8 @@ You'll be prompted to enter the path of the packed file. Extracted files will be
 ### 🪟 GUI version
 
 ```bash
-javac File_Packer_Unpacker.java
-File_Packer_Unpacker.java
+javac File_Packer_UnpackerGUI.java
+File_Packer_UnpackerGUI.java
 ```
 
 1. Click **Browse...** to select the packed file
@@ -47,8 +47,8 @@ File_Packer_Unpacker.java
 
 ```
 .
-├── program733.java             # CLI version
-├── File_Packer_Unpacker.java   # GUI version
+├── File_Packer_Unpacker.java      # CLI version
+├── File_Packer_UnpackerGUI.java   # GUI version
 └── README.md
 ```
 
