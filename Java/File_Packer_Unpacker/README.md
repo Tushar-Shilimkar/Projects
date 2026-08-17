@@ -1,4 +1,4 @@
-# 📦 File Unpacker
+# 📦 File Packer Unpacker
 
 A simple Java utility to extract (unpack) files from a custom **"packed" file format**. The packed file contains one or more blocks, each with a small header (`filename size`) followed by the raw bytes of that file. This program reads the header, then extracts each embedded file back to disk.
 
