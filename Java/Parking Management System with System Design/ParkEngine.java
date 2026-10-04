@@ -1195,7 +1195,7 @@ class ParkingLot
 
 */
 
-class program1017
+class ParkEngine
 {
     public static void main(String A[]) throws Exception
     {
