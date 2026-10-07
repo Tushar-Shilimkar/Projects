@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lifeline Medicare | Medical & Healthcare Essentials Kondhwa Pune</title>
+  <meta name="description" content="Lifeline Medicare in Kondhwa B.K., Pune. Wholesale & Retail medicines, Ayurvedic products, surgical items with home delivery support and WhatsApp ordering.">
+  
+  <!-- Google Fonts & FontAwesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    :root {
+      --primary: #073b66;
+      --primary-dark: #042440;
+      --accent: #02b0c6;
+      --accent-glow: rgba(2, 176, 198, 0.25);
+      --red: #e62e3d;
+      --red-hover: #cf1f2e;
+      --green: #25d366;
+      --green-dark: #1da851;
+      --bg-light: #f4f8fb;
+      --card-bg: #ffffff;
+      --text-main: #0f2c42;
+      --text-muted: #577085;
+      --border-color: #e2ebf1;
+      --shadow-sm: 0 4px 15px rgba(7, 59, 102, 0.05);
+      --shadow-md: 0 10px 30px rgba(7, 59, 102, 0.09);
+      --shadow-lg: 0 20px 45px rgba(7, 59, 102, 0.14);
+      --radius: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: var(--text-main);
+      background-color: var(--bg-light);
+    }
+
+    body {
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* TOP ANNOUNCEMENT BAR */
+    .top-bar {
+      background: linear-gradient(90deg, var(--primary-dark), var(--primary));
+      color: #e0f2fe;
+      font-size: 13px;
+      padding: 8px 0;
+      font-weight: 500;
+    }
+    .top-bar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.12);
+      padding: 3px 12px;
+      border-radius: 20px;
+      font-weight: 700;
+      font-size: 12px;
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #22c55e;
+      box-shadow: 0 0 8px #22c55e;
+      animation: pulse 2s infinite;
+    }
+    .status-dot.closed {
+      background-color: #f43f5e;
+      box-shadow: 0 0 8px #f43f5e;
+    }
+
+    @keyframes pulse {
+      0% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(1.2); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+
+    .top-info {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .top-info span {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* HEADER / NAVBAR */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(226, 235, 241, 0.8);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+    }
+    .nav {
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo {
+      height: 54px;
+      width: auto;
+      object-fit: contain;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .logo:hover {
+      transform: scale(1.03);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+    nav a {
+      font-weight: 600;
+      font-size: 15px;
+      color: var(--primary);
+      transition: color 0.2s ease;
+      position: relative;
+    }
+    nav a:hover {
+      color: var(--accent);
+    }
+    nav a::after {
+      content: '';
+      position: absolute;
+      bottom: -6px;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background: var(--accent);
+      transition: width 0.3s ease;
+      border-radius: 2px;
+    }
+    nav a:hover::after {
+      width: 100%;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    /* BUTTONS */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 15px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      border: none;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--red), var(--red-hover));
+      color: #ffffff;
+      box-shadow: 0 6px 20px rgba(230, 46, 61, 0.3);
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(230, 46, 61, 0.4);
+      background: linear-gradient(135deg, var(--red-hover), #b51523);
+    }
+    .btn-whatsapp {
+      background: linear-gradient(135deg, #25d366, #1da851);
+      color: #ffffff;
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.3);
+    }
+    .btn-whatsapp:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+    }
+    .btn-secondary {
+      background: #ffffff;
+      color: var(--primary);
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+    }
+    .btn-secondary:hover {
+      background: #f0f7fb;
+      border-color: #cbdce7;
+      transform: translateY(-2px);
+    }
+
+    /* HERO SECTION */
+    .hero {
+      padding: 70px 0 80px;
+      background: radial-gradient(circle at 90% 10%, rgba(2, 176, 198, 0.12), transparent 45%),
+                  radial-gradient(circle at 10% 90%, rgba(230, 46, 61, 0.06), transparent 45%),
+                  linear-gradient(180deg, #ffffff 0%, #f4f8fb 100%);
+      position: relative;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 50px;
+      align-items: center;
+    }
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(2, 176, 198, 0.1);
+      color: var(--primary);
+      padding: 8px 16px;
+      border-radius: 30px;
+      font-size: 13px;
+      font-weight: 700;
+      border: 1px solid rgba(2, 176, 198, 0.2);
+      margin-bottom: 20px;
+    }
+    .hero-tag i {
+      color: var(--accent);
+    }
+
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: clamp(40px, 5.5vw, 64px);
+      font-weight: 800;
+      line-height: 1.05;
+      color: var(--primary);
+      margin-bottom: 20px;
+      letter-spacing: -0.5px;
+    }
+    h1 span {
+      background: linear-gradient(135deg, var(--red), #ff4d5a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero-subtitle {
+      font-size: 18px;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+    .hero-subtitle strong {
+      color: var(--primary);
+    }
+    
+    .hero-buttons {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 36px;
+    }
+
+    /* STATS STRIP */
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .stat-card {
+      background: rgba(255, 255, 255, 0.85);
+      border: 1px solid var(--border-color);
+      padding: 16px 18px;
+      border-radius: 16px;
+      box-shadow: var(--shadow-sm);
+      backdrop-filter: blur(10px);
+      transition: transform 0.3s ease;
+    }
+    .stat-card:hover {
+      transform: translateY(-4px);
+    }
+    .stat-val {
+      font-family: 'Outfit', sans-serif;
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--primary);
+      line-height: 1.2;
+    }
+    .stat-lbl {
+      font-size: 12px;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin-top: 2px;
+    }
+
+    /* HERO VISUAL CARD */
+    .hero-visual {
+      position: relative;
+    }
+    .hero-main-card {
+      background: #ffffff;
+      padding: 24px;
+      border-radius: 28px;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid rgba(226, 235, 241, 0.9);
+      position: relative;
+      text-align: center;
+    }
+    .hero-main-card img {
+      width: 100%;
+      height: auto;
+      max-height: 320px;
+      object-fit: contain;
+      border-radius: 20px;
+      background: #f8fafc;
+      padding: 20px;
+    }
+    
+    .floating-badge {
+      position: absolute;
+      bottom: -20px;
+      left: 30px;
+      background: #ffffff;
+      padding: 14px 20px;
+      border-radius: 18px;
+      box-shadow: var(--shadow-md);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border: 1px solid var(--border-color);
+      animation: float 4s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+    .badge-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: rgba(37, 211, 102, 0.12);
+      color: var(--green-dark);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+    }
+    .badge-text {
+      text-align: left;
+    }
+    .badge-text strong {
+      display: block;
+      font-size: 14px;
+      color: var(--primary);
+    }
+    .badge-text span {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* SECTION COMMON */
+    section {
+      padding: 80px 0;
+    }
+    .sec-tag {
+      text-align: center;
+      color: var(--red);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .sec-title {
+      text-align: center;
+      font-family: 'Outfit', sans-serif;
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 48px;
+    }
+
+    /* SAVINGS CALCULATOR SECTION */
+    .calculator-sec {
+      background: linear-gradient(135deg, #073b66 0%, #032038 100%);
+      color: #ffffff;
+      border-radius: 32px;
+      margin: 40px auto;
+      padding: 60px 40px;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      overflow: hidden;
+    }
+    .calculator-sec::before {
+      content: '';
+      position: absolute;
+      top: -50px;
+      right: -50px;
+      width: 250px;
+      height: 250px;
+      background: rgba(2, 176, 198, 0.15);
+      border-radius: 50%;
+      filter: blur(40px);
+    }
+    .calc-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+    .calc-info h2 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 34px;
+      font-weight: 800;
+      margin-bottom: 14px;
+      color: #ffffff;
+    }
+    .calc-info p {
+      color: #b0cbdc;
+      font-size: 16px;
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
+    .calc-box {
+      background: rgba(255, 255, 255, 0.07);
+      backdrop-filter: blur(16px);
+      padding: 32px;
+      border-radius: 24px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    .slider-group {
+      margin-bottom: 28px;
+    }
+    .slider-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 15px;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+    .slider-label span {
+      color: #38bdf8;
+      font-weight: 800;
+      font-size: 18px;
+    }
+    input[type=range] {
+      width: 100%;
+      height: 8px;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.2);
+      outline: none;
+      accent-color: #38bdf8;
+      cursor: pointer;
+    }
+    .savings-result {
+      background: rgba(37, 211, 102, 0.15);
+      border: 1px solid rgba(37, 211, 102, 0.4);
+      padding: 20px;
+      border-radius: 18px;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .savings-val {
+      font-family: 'Outfit', sans-serif;
+      font-size: 38px;
+      font-weight: 800;
+      color: #25d366;
+    }
+    .savings-sub {
+      font-size: 13px;
+      color: #d1fae5;
+    }
+
+    /* SERVICES / CATEGORIES */
+    .filter-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 35px;
+    }
+    .tab-btn {
+      padding: 10px 20px;
+      border-radius: 30px;
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .tab-btn.active, .tab-btn:hover {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+    .service-card {
+      background: var(--card-bg);
+      border-radius: 20px;
+      padding: 28px 24px;
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+      transition: all 0.3s ease;
+      position: relative;
+    }
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-md);
+      border-color: rgba(2, 176, 198, 0.4);
+    }
+    .card-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 16px;
+      background: rgba(2, 176, 198, 0.1);
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+    .service-card h3 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+    .service-card p {
+      color: var(--text-muted);
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    /* PRESCRIPTION ORDER SECTION */
+    .order-sec {
+      background: #ffffff;
+      border-radius: 32px;
+      padding: 50px 40px;
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--border-color);
+    }
+    .order-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 40px;
+    }
+    .form-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .form-desc {
+      color: var(--text-muted);
+      font-size: 15px;
+      margin-bottom: 24px;
+    }
+    .form-group {
+      margin-bottom: 18px;
+    }
+    .form-group label {
+      display: block;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 6px;
+    }
+    .form-control {
+      width: 100%;
+      padding: 14px 16px;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      font-family: inherit;
+      font-size: 15px;
+      background: #f8fafc;
+      transition: all 0.2s ease;
+    }
+    .form-control:focus {
+      outline: none;
+      border-color: var(--accent);
+      background: #ffffff;
+      box-shadow: 0 0 0 4px var(--accent-glow);
+    }
+    textarea.form-control {
+      min-height: 100px;
+      resize: vertical;
+    }
+
+    /* FILE UPLOAD PREVIEW ZONE */
+    .file-upload-zone {
+      border: 2px dashed #cbdce7;
+      border-radius: 14px;
+      padding: 20px;
+      text-align: center;
+      background: #f8fafc;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+    .file-upload-zone:hover {
+      border-color: var(--accent);
+      background: rgba(2, 176, 198, 0.04);
+    }
+    .file-upload-zone i {
+      font-size: 28px;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+    .file-upload-zone p {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+    .file-upload-zone input[type=file] {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+    }
+    .preview-box {
+      margin-top: 12px;
+      display: none;
+      align-items: center;
+      gap: 12px;
+      background: #e0f2fe;
+      padding: 10px 14px;
+      border-radius: 10px;
+      border: 1px solid #bae6fd;
+    }
+    .preview-box img {
+      width: 45px;
+      height: 45px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    .preview-info {
+      flex: 1;
+      font-size: 12px;
+      text-align: left;
+    }
+    .preview-info strong {
+      display: block;
+      color: var(--primary);
+    }
+    .remove-file {
+      color: var(--red);
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    /* WHY US / FEATURES SIDE PANEL */
+    .features-panel {
+      background: #f4f8fb;
+      padding: 32px;
+      border-radius: 24px;
+      border: 1px solid var(--border-color);
+    }
+    .feature-item {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .feature-item:last-child {
+      margin-bottom: 0;
+    }
+    .feature-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      background: rgba(7, 59, 102, 0.08);
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+    .feature-text strong {
+      display: block;
+      font-size: 16px;
+      color: var(--primary);
+    }
+    .feature-text p {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    /* FAQ ACCORDION */
+    .faq-grid {
+      max-width: 800px;
+      margin: 0 auto;
+      display: grid;
+      gap: 16px;
+    }
+    .faq-item {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+    .faq-question {
+      padding: 20px 24px;
+      font-weight: 700;
+      font-size: 16px;
+      color: var(--primary);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+    }
+    .faq-question i {
+      transition: transform 0.3s ease;
+      color: var(--accent);
+    }
+    .faq-answer {
+      padding: 0 24px 20px;
+      color: var(--text-muted);
+      font-size: 14px;
+      line-height: 1.6;
+      display: none;
+    }
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+    .faq-item.active .faq-question i {
+      transform: rotate(180deg);
+    }
+
+    /* CONTACT & STORE LOCATION */
+    .contact-card {
+      background: #ffffff;
+      border-radius: 24px;
+      padding: 32px;
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+    }
+    .contact-item {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .contact-item i {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: rgba(2, 176, 198, 0.1);
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+    .contact-item div strong {
+      display: block;
+      font-size: 15px;
+      color: var(--primary);
+    }
+    .contact-item div p {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+    .map-container {
+      margin-top: 24px;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border-color);
+    }
+    .map-container iframe {
+      width: 100%;
+      height: 320px;
+      border: 0;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--primary-dark);
+      color: #94a3b8;
+      padding: 50px 0 30px;
+      font-size: 14px;
+    }
+    .foot-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+    .foot-brand h3 {
+      font-family: 'Outfit', sans-serif;
+      color: #ffffff;
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+    .foot-brand p {
+      color: #cbd5e1;
+      max-width: 360px;
+    }
+    .foot-col h4 {
+      color: #ffffff;
+      font-size: 16px;
+      margin-bottom: 16px;
+    }
+    .foot-col ul {
+      list-style: none;
+    }
+    .foot-col ul li {
+      margin-bottom: 10px;
+    }
+    .foot-col ul li a:hover {
+      color: #ffffff;
+    }
+    .foot-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    /* MOBILE FLOATING BAR */
+    .mobile-bar {
+      display: none;
+      position: fixed;
+      bottom: 12px;
+      left: 12px;
+      right: 12px;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(14px);
+      padding: 8px;
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      z-index: 999;
+      gap: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.6);
+    }
+    .mobile-btn {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 4px;
+      border-radius: 12px;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 11px;
+      gap: 3px;
+    }
+    .m-call { background: var(--primary); }
+    .m-wa { background: var(--green); }
+    .m-order { background: var(--red); }
+
+    /* RESPONSIVE DESIGN */
+    @media (max-width: 992px) {
+      .hero-grid, .calc-grid, .order-grid {
+        grid-template-columns: 1fr;
+      }
+      .foot-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (max-width: 768px) {
+      nav {
+        display: none;
+      }
+      .top-info {
+        display: none;
+      }
+      .calculator-sec, .order-sec {
+        padding: 30px 20px;
+      }
+      footer {
+        padding-bottom: 90px;
+      }
+      .foot-grid {
+        grid-template-columns: 1fr;
+      }
+      .mobile-bar {
+        display: flex;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP BAR WITH LIVE STORE STATUS -->
+  <div class="top-bar">
+    <div class="wrap top-bar-inner">
+      <div class="status-badge" id="liveStatus">
+        <span class="status-dot"></span>
+        <span id="statusText">तपासत आहे... (Checking Store Status)</span>
+      </div>
+      <div class="top-info">
+        <span><i class="fa-solid fa-motorcycle"></i> Delivery via Porter / Dunzo (Charges extra as per distance)</span>
+        <span><i class="fa-solid fa-clock"></i> 9:00 AM – 10:00 PM</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="wrap nav">
+      <a href="#" class="logo-container">
+        <img class="logo" src="LOGOM.png" alt="Lifeline Medicare Logo">
+      </a>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#calculator">Savings Calculator</a>
+        <a href="#order">WhatsApp Order</a>
+        <a href="#contact">Contact & Map</a>
+        <a href="#faq">FAQs</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-whatsapp" href="https://wa.me/917391843354" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i> Order Now
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="hero-tag">
+          <i class="fa-solid fa-shield-halved"></i> WHOLESALE & RETAIL • KONDHWA, PUNE
+        </div>
+        <h1>Lifeline <span>Medicare</span></h1>
+        <p class="hero-subtitle">
+          <strong>We care. We secure.</strong><br>
+          तुमच्या आरोग्याची पूर्ण काळजी! Trusted branded & generic medicines, healthcare essentials with easy WhatsApp ordering and home-delivery support.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn btn-whatsapp" href="https://wa.me/917391843354?text=Hello%20Lifeline%20Medicare%2C%20I%20want%20to%20order%20medicines." target="_blank">
+            <i class="fa-brands fa-whatsapp"></i> 💬 Order on WhatsApp
+          </a>
+          <a class="btn btn-secondary" href="#order">
+            <i class="fa-solid fa-file-prescription"></i> Upload Prescription
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-card">
+            <div class="stat-val">10–60%</div>
+            <div class="stat-lbl">Generic Discount*</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val">9AM - 10PM</div>
+            <div class="stat-lbl">Delivery Hours</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-val">100%</div>
+            <div class="stat-lbl">Genuine Care</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- HERO VISUAL -->
+      <div class="hero-visual">
+        <div class="hero-main-card">
+          <img src="LOGOM.png" alt="Lifeline Medicare Store Showcase">
+          <div class="floating-badge">
+            <div class="badge-icon"><i class="fa-solid fa-bolt"></i></div>
+            <div class="badge-text">
+              <strong>Quick Response</strong>
+              <span>Fast WhatsApp Confirmation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GENERIC MEDICINE SAVINGS CALCULATOR -->
+  <section id="calculator">
+    <div class="wrap">
+      <div class="calculator-sec">
+        <div class="calc-grid">
+          <div class="calc-info">
+            <div style="color: #38bdf8; font-weight: 800; text-transform: uppercase; font-size: 13px; letter-spacing: 1px; margin-bottom: 8px;">
+              💡 Smart Healthcare Savings
+            </div>
+            <h2>Generic Medicine Savings Calculator</h2>
+            <p>
+              Save 10% to 60% on quality generic medicines at Lifeline Medicare. Slide below to see your potential monthly & yearly savings!
+            </p>
+            <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 8px; font-size: 14px; color: #e0f2fe;">
+                <i class="fa-solid fa-circle-check" style="color: #25d366;"></i> Quality Assured
+              </div>
+              <div style="display: flex; align-items: center; gap: 8px; font-size: 14px; color: #e0f2fe;">
+                <i class="fa-solid fa-circle-check" style="color: #25d366;"></i> Same Salt Formula
+              </div>
+            </div>
+          </div>
+
+          <div class="calc-box">
+            <div class="slider-group">
+              <div class="slider-label">
+                <span>Monthly Medicine Bill:</span>
+                <span id="budgetValue">₹2,000</span>
+              </div>
+              <input type="range" id="budgetSlider" min="500" max="10000" step="500" value="2000" oninput="updateCalculator()">
+            </div>
+
+            <div class="savings-result">
+              <div style="font-size: 13px; color: #a7f3d0; font-weight: 600;">Estimated Savings With Generic</div>
+              <div class="savings-val" id="monthlySavings">₹800 / month</div>
+              <div class="savings-sub" id="yearlySavings">Save up to ₹9,600 every year! 🎉</div>
+            </div>
+
+            <button class="btn btn-whatsapp" style="width: 100%;" onclick="orderGenericWithSavings()">
+              <i class="fa-brands fa-whatsapp"></i> Inquire Generic Medicines via WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES & CATEGORIES -->
+  <section id="services">
+    <div class="wrap">
+      <div class="sec-tag">Our Products & Services</div>
+      <h2 class="sec-title">Healthcare Solutions Made Simple</h2>
+
+      <div class="filter-tabs">
+        <button class="tab-btn active" onclick="filterCategory('all')">All Products</button>
+        <button class="tab-btn" onclick="filterCategory('medicines')">Branded Medicines</button>
+        <button class="tab-btn" onclick="filterCategory('generic')">Generic Medicines</button>
+        <button class="tab-btn" onclick="filterCategory('ayurvedic')">Ayurvedic & Wellness</button>
+        <button class="tab-btn" onclick="filterCategory('surgical')">Surgical & Medical</button>
+      </div>
+
+      <div class="cards-grid">
+        <div class="service-card" data-cat="medicines">
+          <div class="card-icon"><i class="fa-solid fa-pills"></i></div>
+          <h3>Branded Medicines</h3>
+          <p>Complete range of authentic prescription medicines from leading healthcare manufacturers.</p>
+          <a class="card-link" href="#order">Order Medicine <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-cat="generic">
+          <div class="card-icon"><i class="fa-solid fa-percent"></i></div>
+          <h3>Generic Medicines</h3>
+          <p>Save up to 60% with WHO-GMP certified generic medicine options for chronic & regular care.</p>
+          <a class="card-link" href="#calculator">Calculate Savings <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-cat="ayurvedic">
+          <div class="card-icon"><i class="fa-solid fa-leaf"></i></div>
+          <h3>Ayurvedic Care</h3>
+          <p>Natural herbs, immunity boosters, syrups and certified ayurvedic wellness formulations.</p>
+          <a class="card-link" href="#order">Inquire Products <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-cat="surgical">
+          <div class="card-icon"><i class="fa-solid fa-briefcase-medical"></i></div>
+          <h3>Surgical & First Aid</h3>
+          <p>Bandages, dressings, antiseptics, gloves, blood pressure monitors & medical supplies.</p>
+          <a class="card-link" href="#order">View Supplies <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK WHATSAPP ORDER WITH PRESCRIPTION UPLOAD -->
+  <section id="order">
+    <div class="wrap">
+      <div class="order-sec">
+        <div class="order-grid">
+          <div>
+            <div class="form-title">
+              <i class="fa-solid fa-paper-plane" style="color: var(--accent);"></i> Send Quick WhatsApp Request
+            </div>
+            <p class="form-desc">
+              Enter details or attach a photo of your prescription. We will check availability and message back instantly!
+            </p>
+
+            <form onsubmit="sendWAOrder(event)">
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+                <div class="form-group">
+                  <label for="custName">Your Name *</label>
+                  <input type="text" id="custName" class="form-control" placeholder="उदा. Rahul Sharma" required>
+                </div>
+                <div class="form-group">
+                  <label for="custPhone">Mobile Number *</label>
+                  <input type="tel" id="custPhone" class="form-control" placeholder="उदा. 9822XXXXXX" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="custAddress">Delivery Address / Area in Kondhwa</label>
+                <input type="text" id="custAddress" class="form-control" placeholder="Shop/Flat No, Landmark, Ashraf Nagar Kondhwa B.K.">
+              </div>
+
+              <!-- DELIVERY POLICY NOTE -->
+              <div style="background: #e0f2fe; border-left: 4px solid var(--accent); padding: 12px 14px; border-radius: 10px; margin-bottom: 18px; font-size: 13px; color: var(--primary);">
+                <i class="fa-solid fa-motorcycle" style="color: var(--accent); font-size: 16px;"></i> <strong>डिलिव्हरी टिप (Delivery Charges Note):</strong><br>
+                डिलिव्हरी पॉर्टर (Porter / Dunzo) द्वारे पाठवली जाईल. दुकानापासूनच्या अंतरानुसार लागणारे डिलिव्हरी चार्जेस ग्राहकाला (Customer) स्वतंत्रपणे द्यावे लागतील.
+              </div>
+
+              <div class="form-group">
+                <label for="custReq">Medicine Names / Requirement</label>
+                <textarea id="custReq" class="form-control" placeholder="Write medicine names, dosage, or required healthcare items..."></textarea>
+              </div>
+
+              <!-- PRESCRIPTION ATTACHMENT PREVIEW ZONE -->
+              <div class="form-group">
+                <label>Prescription Photo / Document (Optional)</label>
+                <div class="file-upload-zone" onclick="document.getElementById('prescriptionFile').click()">
+                  <i class="fa-solid fa-cloud-arrow-up"></i>
+                  <p>Click or drag prescription image here</p>
+                  <span style="font-size: 11px; color: var(--text-muted);">(Supports JPG, PNG, PDF)</span>
+                  <input type="file" id="prescriptionFile" accept="image/*,.pdf" onchange="handleFileSelect(event)">
+                </div>
+
+                <div class="preview-box" id="filePreview">
+                  <img id="previewImg" src="" alt="Prescription Preview">
+                  <div class="preview-info">
+                    <strong id="fileName">prescription.jpg</strong>
+                    <span style="color: var(--green-dark); font-weight: 600;"><i class="fa-solid fa-check"></i> Ready to send on WhatsApp</span>
+                  </div>
+                  <i class="fa-solid fa-circle-xmark remove-file" onclick="removeFile(event)" title="Remove file"></i>
+                </div>
+              </div>
+
+              <button class="btn btn-primary" style="width: 100%; padding: 16px;">
+                <i class="fa-brands fa-whatsapp" style="font-size: 20px;"></i> Send Request on WhatsApp →
+              </button>
+            </form>
+          </div>
+
+          <!-- WHY LIFELINE MEDICARE PANEL -->
+          <div class="features-panel">
+            <h3 style="font-family: 'Outfit', sans-serif; font-size: 22px; color: var(--primary); margin-bottom: 20px;">
+              Why Choose Lifeline Medicare?
+            </h3>
+
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-store"></i></div>
+              <div class="feature-text">
+                <strong>Wholesale & Retail Pricing</strong>
+                <p>Get best competitive prices for both home and bulk requirement.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-motorcycle"></i></div>
+              <div class="feature-text">
+                <strong>Porter / Dunzo Fast Delivery</strong>
+                <p>Quick delivery via Porter/Dunzo from 9 AM to 10 PM. <em>*Delivery charges extra as per distance (paid by customer).</em></p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-user-doctor"></i></div>
+              <div class="feature-text">
+                <strong>Qualified Pharmacist Care</strong>
+                <p>Managed by DRx. Tejas Shilimkar ensuring accurate medicine support.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+              <div class="feature-text">
+                <strong>Authentic Guarantee</strong>
+                <p>100% genuine products sourced directly from verified distributors.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQS SECTION -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-tag">Got Questions?</div>
+      <h2 class="sec-title">Frequently Asked Questions</h2>
+
+      <div class="faq-grid">
+        <div class="faq-item active">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>How do I order medicines via WhatsApp?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            Simply fill out the form above or click "Order on WhatsApp", send your medicine list or a photo of your prescription. Our team will verify availability, calculate total cost with available discounts, and confirm delivery time!
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>What are the home delivery timings & charges?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            Our home delivery operates daily from <strong>9:00 AM to 10:00 PM</strong> via <strong>Porter / Dunzo / Local Delivery Partners</strong>. Delivery charges are calculated based on actual distance and are <strong>payable by the customer</strong> upon delivery.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>Are generic medicines safe and effective?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            Yes! Generic medicines contain the exact same active ingredients, salt formula, and therapeutic efficacy as branded medicines, but cost 10% to 60% less. All generic medicines at Lifeline Medicare are sourced from certified manufacturers.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>Is a prescription required for ordering medicines?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            For prescription-only medicines (Schedule H & H1 drugs), a valid prescription from a registered medical practitioner is mandatory. You can easily attach photo of prescription in our WhatsApp order form.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & LOCATION -->
+  <section id="contact" style="background: #ffffff;">
+    <div class="wrap">
+      <div class="sec-tag">Visit Our Store</div>
+      <h2 class="sec-title">Store Location & Contact</h2>
+
+      <div class="order-grid">
+        <div class="contact-card">
+          <h3 style="font-family: 'Outfit', sans-serif; font-size: 24px; color: var(--primary); margin-bottom: 24px;">
+            Lifeline Medicare Details
+          </h3>
+
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <strong>Store Address</strong>
+              <p>Shop No. 1, Sr. No. 5/4/5, Gr. Floor, Kakade Wasti, Ashraf Nagar, Kondhwa B.K., Pune - 411046</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fa-solid fa-user-doctor"></i>
+            <div>
+              <strong>Pharmacist In-Charge</strong>
+              <p>DRx. Tejas Shilimkar</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <strong>Phone Contact</strong>
+              <p><a href="tel:+917391843354" style="color: var(--accent); font-weight: 700;">+91 7391843354</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <strong>Email Address</strong>
+              <p><a href="mailto:lifelinemedicare001@gmail.com" style="color: var(--accent); font-weight: 700;">lifelinemedicare001@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div style="margin-top: 24px;">
+            <a class="btn btn-primary" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Lifeline%20Medicare%20Kondhwa%20Pune%20411046">
+              <i class="fa-solid fa-map-location-dot"></i> Open Google Maps Directions ↗
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <div class="map-container">
+            <iframe loading="lazy" src="https://www.google.com/maps?q=Lifeline%20Medicare%20Kondhwa%20Pune%20411046&output=embed" title="Lifeline Medicare Map Location"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <h3>Lifeline Medicare</h3>
+          <p>We care. We secure. Dedicated to providing genuine medicines, generic savings, and quick home delivery to Kondhwa, Pune.</p>
+        </div>
+        <div class="foot-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#services">Products & Services</a></li>
+            <li><a href="#calculator">Generic Savings</a></li>
+            <li><a href="#order">Prescription Order</a></li>
+            <li><a href="#faq">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="foot-col">
+          <h4>Store Hours</h4>
+          <p style="color: #ffffff; font-weight: 700; margin-bottom: 6px;">Monday – Sunday</p>
+          <p>9:00 AM – 10:00 PM</p>
+          <p style="margin-top: 10px; font-size: 13px; color: #38bdf8;"><i class="fa-solid fa-motorcycle"></i> Home Delivery Active</p>
+        </div>
+      </div>
+
+      <div class="foot-bottom">
+        <div>© 2026 Lifeline Medicare • Kondhwa B.K., Pune. All rights reserved.</div>
+        <div>Managed by DRx. Tejas Shilimkar</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MOBILE FLOATING BOTTOM BAR -->
+  <div class="mobile-bar">
+    <a class="mobile-btn m-call" href="tel:+917391843354">
+      <i class="fa-solid fa-phone"></i> Call
+    </a>
+    <a class="mobile-btn m-wa" href="https://wa.me/917391843354" target="_blank">
+      <i class="fa-brands fa-whatsapp"></i> WhatsApp
+    </a>
+    <a class="mobile-btn m-order" href="#order">
+      <i class="fa-solid fa-prescription-bottle-medical"></i> Order
+    </a>
+  </div>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    // 1. LIVE STORE STATUS CHECK
+    function checkStoreStatus() {
+      const now = new Date();
+      // IST Time calculation
+      const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+      const istTime = new Date(utc + (3600000 * 5.5));
+      const hours = istTime.getHours();
+
+      const statusBadge = document.getElementById('liveStatus');
+      const statusDot = statusBadge.querySelector('.status-dot');
+      const statusText = document.getElementById('statusText');
+
+      // Store hours: 9:00 AM (9) to 10:00 PM (22)
+      if (hours >= 9 && hours < 22) {
+        statusDot.classList.remove('closed');
+        statusText.innerHTML = '🟢 <strong>उघडे आहे (Open Now)</strong> • 9 AM – 10 PM Delivery Active';
+      } else {
+        statusDot.classList.add('closed');
+        statusText.innerHTML = '🔴 <strong>सध्या बंद आहे (Closed Now)</strong> • सकाळी 9 वाजता उघडेल (Opens at 9 AM)';
+      }
+    }
+    checkStoreStatus();
+
+    // 2. SAVINGS CALCULATOR LOGIC
+    function updateCalculator() {
+      const slider = document.getElementById('budgetSlider');
+      const value = parseInt(slider.value);
+      document.getElementById('budgetValue').innerText = '₹' + value.toLocaleString('en-IN');
+
+      // 40% average generic savings estimate
+      const monthlySave = Math.round(value * 0.40);
+      const yearlySave = monthlySave * 12;
+
+      document.getElementById('monthlySavings').innerText = '₹' + monthlySave.toLocaleString('en-IN') + ' / महिना (month)';
+      document.getElementById('yearlySavings').innerText = 'वर्षभरात ₹' + yearlySave.toLocaleString('en-IN') + ' पर्यंत बचत! 🎉';
+    }
+
+    function orderGenericWithSavings() {
+      const sliderVal = document.getElementById('budgetSlider').value;
+      const msg = `Hello Lifeline Medicare,\nI checked your Generic Savings Calculator. My current monthly medicine spend is around ₹${sliderVal}. Please tell me about available generic options & discounts!`;
+      window.open('https://wa.me/917391843354?text=' + encodeURIComponent(msg), '_blank');
+    }
+
+    // 3. CATEGORY FILTER LOGIC
+    function filterCategory(cat) {
+      const buttons = document.querySelectorAll('.tab-btn');
+      buttons.forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+
+      const cards = document.querySelectorAll('.service-card');
+      cards.forEach(card => {
+        if (cat === 'all' || card.getAttribute('data-cat') === cat) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // 4. PRESCRIPTION FILE UPLOAD PREVIEW LOGIC
+    let selectedFile = null;
+
+    function handleFileSelect(e) {
+      const file = e.target.files[0];
+      if (file) {
+        selectedFile = file;
+        document.getElementById('fileName').innerText = file.name;
+        document.getElementById('filePreview').style.display = 'flex';
+
+        if (file.type.startsWith('image/')) {
+          const reader = new FileReader();
+          reader.onload = function(evt) {
+            document.getElementById('previewImg').src = evt.target.result;
+          };
+          reader.readAsDataURL(file);
+        } else {
+          document.getElementById('previewImg').src = 'LOGOM.png';
+        }
+      }
+    }
+
+    function removeFile(e) {
+      e.stopPropagation();
+      selectedFile = null;
+      document.getElementById('prescriptionFile').value = '';
+      document.getElementById('filePreview').style.display = 'none';
+    }
+
+    // 5. SEND WHATSAPP ORDER FORM
+    function sendWAOrder(e) {
+      e.preventDefault();
+      const name = document.getElementById('custName').value.trim();
+      const phone = document.getElementById('custPhone').value.trim();
+      const address = document.getElementById('custAddress').value.trim();
+      const req = document.getElementById('custReq').value.trim();
+
+      let text = `*New Medicine Order / Inquiry - Lifeline Medicare*\n\n`;
+      text += `👤 *Name:* ${name}\n`;
+      text += `📞 *Mobile:* ${phone}\n`;
+      if (address) text += `📍 *Address:* ${address}\n`;
+      if (req) text += `💊 *Requirements:* ${req}\n`;
+      text += `🛵 *Delivery Note:* Dispatch via Porter/Dunzo (Delivery charges extra as per distance, paid by customer)\n`;
+
+      if (selectedFile) {
+        text += `\n📄 *Prescription attached in photo upload! (I will attach this image in WhatsApp chat)*`;
+      }
+
+      window.open('https://wa.me/917391843354?text=' + encodeURIComponent(text), '_blank');
+    }
+
+    // 6. FAQ TOGGLE ACCORDION
+    function toggleFaq(element) {
+      const item = element.parentElement;
+      item.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
